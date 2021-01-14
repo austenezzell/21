@@ -1,0 +1,208 @@
+@import 'variables';
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+::selection { background: $burnt-orange-color; }
+
+// Type
+@font-face {
+    font-family: "everett_regular";
+    src: url('../fonts/Everett-Regular-web.woff') format('woff');
+}
+
+body {
+  font-family: everett_regular;
+  font-size: $font-small;
+  color: $dark-color;
+  border: 1px solid $dark-color;
+  background: $burnt-orange-color;
+}
+
+.main-content {
+  background: $tan-color;
+  color: $dark-color;
+}
+
+
+// LAYOUT
+.layout-margin {
+  padding: $layout-margin;
+}
+.grid-parent-centered {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat($grid-columns,1fr);
+  width: 100%;
+  justify-items: center;
+  align-content: center;
+  grid-row-gap: $grid-gutters;
+}
+.grid-parent {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat($grid-columns,1fr);
+  width: 100%;
+  justify-items: start;
+  align-content: start;
+  grid-row-gap: $grid-gutters;
+}
+
+.grid-item {
+  grid-column-end: auto;
+  grid-column-start: auto;
+  object-fit: cover;
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+// MOBILE
+@for $i from 1 through $grid-columns {
+  .grid-start-#{$i} {
+    grid-column-start: $i;
+  }
+}
+
+@for $i from 1 through $grid-columns {
+  .grid-span-#{$i} {
+    grid-column-end: span #{$i};
+  }
+}
+
+
+// DESKTOP
+@media all and (min-width: 600px) {
+  @for $i from 1 through $grid-columns {
+    .desktop-grid-start-#{$i} {
+      grid-column-start: $i;
+    }
+  }
+
+  @for $i from 1 through $grid-columns {
+    .desktop-grid-span-#{$i} {
+      grid-column-end: span #{$i};
+    }
+  }
+}
+
+
+// HUGE
+@media all and (min-width: 1300px) {
+  @for $i from 1 through $grid-columns {
+    .huge-grid-start-#{$i} {
+      grid-column-start: $i;
+    }
+  }
+
+  @for $i from 1 through $grid-columns {
+    .huge-grid-span-#{$i} {
+      grid-column-end: span #{$i};
+    }
+  }
+}
+
+
+
+
+// TYPE
+p {
+  margin:0 0 $base-spacing/2;
+}
+h1,h2,h3,h4,h5 {
+  margin: 0 0 $base-spacing;
+  font-weight: inherit;
+}
+
+.font-small {
+  font-size: $font-small;
+}
+.font-medium {
+  font-size: $font-medium;
+}
+.font-large {
+  font-size: $font-large;
+}
+.font-huge {
+  font-size: $font-huge;
+}
+
+// ANIMATION
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes hide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes in-from-left {
+  from {
+    opacity: 0;
+    left: - $base-spacing;
+  }
+  to {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+// HELPERS
+.mobile-not {
+  @media all and (max-width: 600px) {
+    display: none;
+  }
+}
+.mpb {
+  padding-bottom: $base-spacing/2;
+  @media all and (min-width: 600px) {
+    padding-bottom: 0;
+  }
+}
+.padding-right {
+  padding-right: $base-spacing/2;
+}
+
+.sticky {
+  position: relative;
+  top: 0;
+  z-index: 4;
+  background: $tan-color;
+  @media all and (min-width: 600px) {
+    position: sticky;
+  }
+}
+
+.sticky-mobile {
+  position: sticky;
+}
+
+.w100 {
+  width: 100%;
+  height: auto;
+}
+
+.mb1 {
+  margin-bottom: $base-spacing;
+}
+.min-100 {
+  min-height: 100Vh;
+  position: relative;
+}
+.vh-80 {
+  height: 80vh;
+  align-items: center;
+}

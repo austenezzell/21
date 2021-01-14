@@ -1,0 +1,40 @@
+// WORK PAGE
+
+.work-page {
+  background: $tan-color;
+  .project-info {
+    font-size: $font-regular;
+    a {
+      color: $dark-color;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    @media all and (min-width: 600px) {
+      font-size: $font-medium;
+    }
+  }
+
+  .work-dtl {
+    line-height: 0;
+    padding: 0 0 $base-spacing;
+    width: 100%;
+    height: auto;
+  }
+
+  .team {
+    margin-top: $base-spacing;
+    a {
+      color: $dark-color;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        list-style: none;
+        margin-bottom: $base-spacing/2;
+      }
+    }
+  }
+}
