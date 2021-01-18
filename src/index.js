@@ -47,6 +47,8 @@ import gogoro10 from "../src/img/gogoro_dtl_10.jpg";
 import gogoro11 from "../src/img/gogoro_dtl_11.jpg";
 import gogoro12 from "../src/img/gogoro_dtl_12.jpg";
 import gogoro13 from "../src/img/gogoro_dtl_13.jpg";
+import gogoro14 from "../src/img/gogoro_dtl_14.jpg";
+import gogoro15 from "../src/img/gogoro_dtl_15.jpg";
 
 import indigo1 from "../src/img/indigo_1.jpg";
 import indigo2 from "../src/img/indigo_2.jpg";
@@ -117,6 +119,15 @@ import banjo7 from "../src/img/banjo7.jpg";
 import banjo8 from "../src/img/banjo8.jpg";
 import banjo9 from "../src/img/banjo9.jpg";
 
+import rc0 from "../src/img/rc_content_0.mp4";
+import rc1 from "../src/img/rc_content_1.mp4";
+import rc2 from "../src/img/rc_content_2.mp4";
+import rc3 from "../src/img/rc_content_3.jpg";
+import rc4 from "../src/img/rcfwd1.jpg";
+import rc5 from "../src/img/rcfwd2.jpg";
+import rc6 from "../src/img/rcfwd3.jpg";
+import rc7 from "../src/img/rcglip.jpg";
+
 document.addEventListener("DOMContentLoaded", () => {
 
   if (workPage) {
@@ -125,12 +136,13 @@ document.addEventListener("DOMContentLoaded", () => {
     let caseStudy = workPage.id;
 
     let cincoWork = [cinco1, cinco0, cinco2, cinco];
-    let gogoroWork = [gogoro2,  gogoro10, gogoro11, gogoro12, gogoro3, gogoro13, gogoro4, gogoro5, gogoro6, gogoro7, gogoro8, gogoro9 ];
+    let gogoroWork = [gogoro2,  gogoro10, gogoro11, gogoro12, gogoro3, gogoro13, gogoro4, gogoro5, gogoro6, gogoro7, gogoro8, gogoro9, gogoro15, gogoro14 ];
     let indigoWork = [indigo1, indigo10, indigo2, indigo3, indigo4, indigo5, indigo6, indigo7, indigo8, indigo9];
     let hanourWork = [hanour5, hanour6, hanour2, hanour3, hanour4, hanour1];
     let tjbWork = [tjb0, tjb3, tjb1, tjb4, tjb2];
     let hankWork = [hank1, hank4, hank3, hank5, hank2,];
     let nextbitWork = [nextbit2, nextbit3, nextbit4, nextbit5, nextbit6, nextbit7, nextbit8, nextbit9, nextbit10, nextbit11, nextbit12, nextbit13, nextbit14 ];
+    let ringcentralWork = [rc0, rc1, rc2, rc3, rc4, rc5, rc7];
 
     setTimeout(function() {
       introEl.style.display = 'none';
@@ -170,6 +182,8 @@ document.addEventListener("DOMContentLoaded", () => {
       injectWork(cincoWork);
     } else if (caseStudy == 'nextbit-page') {
       injectWork(nextbitWork);
+    } else if (caseStudy == 'ringcentral-page') {
+      injectWork(ringcentralWork);
     }
 
   };
@@ -236,6 +250,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // IMAGES AND VIDEOS
     // var cloudsBlock = document.getElementById('clouds');
     // cloudsBlock.src = clouds;
+    var rcBlock = document.getElementById('rc0');
+    rcBlock.src = rc1;
 
     var hankBlock = document.getElementById('hank');
     hankBlock.src = hank;

@@ -141,6 +141,12 @@ module.exports = {
       template: './' + src_Path + '/nextbit.html',
       filename: 'nextbit.html'
     }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      hash: true,
+      template: './' + src_Path + '/ringcentral.html',
+      filename: 'ringcentral.html'
+    }),
 
     new WebpackMd5Hash()
   ]
