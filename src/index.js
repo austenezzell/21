@@ -127,6 +127,8 @@ import rc4 from "../src/img/rcfwd1.jpg";
 import rc5 from "../src/img/rcfwd2.jpg";
 import rc6 from "../src/img/rcfwd3.jpg";
 import rc7 from "../src/img/rcglip.jpg";
+import rcBalance1 from "../src/img/rc_balance_1.mp4";
+import rcBalance2 from "../src/img/rc_balance_2.mp4";
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -142,7 +144,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let tjbWork = [tjb0, tjb3, tjb1, tjb4, tjb2];
     let hankWork = [hank1, hank4, hank3, hank5, hank2,];
     let nextbitWork = [nextbit2, nextbit3, nextbit4, nextbit5, nextbit6, nextbit7, nextbit8, nextbit9, nextbit10, nextbit11, nextbit12, nextbit13, nextbit14 ];
-    let ringcentralWork = [rc0, rc1, rc2, rc3, rc4, rc5, rc7];
+    let ringcentralWork = [rcBalance2, rc0, rc1, rc2, rc3, rc4, rc5, rc7, rcBalance1 ];
 
     setTimeout(function() {
       introEl.style.display = 'none';
