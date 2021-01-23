@@ -130,6 +130,18 @@ module.exports = {
       hash: false,
       template: './' + src_Path + '/ringcentral.html',
       filename: 'ringcentral.html'
+    }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      hash: false,
+      template: './' + src_Path + '/thesacredfig.html',
+      filename: 'thesacredfig.html'
+    }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      hash: false,
+      template: './' + src_Path + '/hora.html',
+      filename: 'hora.html'
     })
   ]
 };

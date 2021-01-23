@@ -147,6 +147,18 @@ module.exports = {
       template: './' + src_Path + '/ringcentral.html',
       filename: 'ringcentral.html'
     }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      hash: true,
+      template: './' + src_Path + '/thesacredfig.html',
+      filename: 'thesacredfig.html'
+    }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      hash: true,
+      template: './' + src_Path + '/hora.html',
+      filename: 'hora.html'
+    }),    
 
     new WebpackMd5Hash()
   ]

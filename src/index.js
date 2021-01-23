@@ -130,6 +130,22 @@ import rc7 from "../src/img/rcglip.jpg";
 import rcBalance1 from "../src/img/rc_balance_1.mp4";
 import rcBalance2 from "../src/img/rc_balance_2.mp4";
 
+import fig0 from "../src/img/fig_0.jpg";
+import fig1 from "../src/img/fig_1.jpg";
+import fig2 from "../src/img/fig_2.jpg";
+import fig3 from "../src/img/fig_3.jpg";
+import fig4 from "../src/img/fig_4.jpg";
+import fig5 from "../src/img/fig_5.jpg";
+import fig6 from "../src/img/fig_6.jpg";
+import fig7 from "../src/img/fig_7.jpg";
+
+import hora0 from "../src/img/hora_0.jpg";
+import hora1 from "../src/img/hora_1.jpg";
+import hora2 from "../src/img/hora_2.jpg";
+let hora3 = 'https://player.vimeo.com/external/167498190.hd.mp4?s=091c3e983743f4596e12cd96fab817112b4b32bf&profile_id=119';
+let hora4 = 'https://player.vimeo.com/external/165376142.hd.mp4?s=81c1496a030ac87802a95df3da50f6cec7ff59fb&profile_id=174';
+let hora5 = 'https://player.vimeo.com/external/167500442.hd.mp4?s=f934a9db1f0b95530442e2931891572d18c2b347&profile_id=119';
+
 document.addEventListener("DOMContentLoaded", () => {
 
   if (workPage) {
@@ -144,7 +160,9 @@ document.addEventListener("DOMContentLoaded", () => {
     let tjbWork = [tjb0, tjb3, tjb1, tjb4, tjb2];
     let hankWork = [hank1, hank4, hank3, hank5, hank2,];
     let nextbitWork = [nextbit2, nextbit3, nextbit4, nextbit5, nextbit6, nextbit7, nextbit8, nextbit9, nextbit10, nextbit11, nextbit12, nextbit13, nextbit14 ];
-    let ringcentralWork = [rcBalance2, rc0, rc1, rc2, rc3, rc4, rc5, rc7, rcBalance1 ];
+    let ringcentralWork = [rc0, rc1, rc2, rc3, rc4, rc5, rc7, rcBalance1];
+    let figWork = [fig1, fig2, fig3, fig4, fig5, fig6];
+    let horaWork = [hora1, hora3, hora2, hora4, hora5];
 
     setTimeout(function() {
       introEl.style.display = 'none';
@@ -186,6 +204,10 @@ document.addEventListener("DOMContentLoaded", () => {
       injectWork(nextbitWork);
     } else if (caseStudy == 'ringcentral-page') {
       injectWork(ringcentralWork);
+    } else if (caseStudy == 'thesacredfig-page') {
+      injectWork(figWork);
+    } else if (caseStudy == 'hora-page') {
+      injectWork(horaWork);
     }
 
   };
@@ -253,7 +275,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // var cloudsBlock = document.getElementById('clouds');
     // cloudsBlock.src = clouds;
     var rcBlock = document.getElementById('rc0');
-    rcBlock.src = rc1;
+    rcBlock.src = rcBalance2;
 
     var hankBlock = document.getElementById('hank');
     hankBlock.src = hank;
@@ -264,7 +286,11 @@ document.addEventListener("DOMContentLoaded", () => {
     var nextbitBlock = document.getElementById('nextbit-fist');
     nextbitBlock.src = nextbit1;
 
+    var figBlock = document.getElementById('fig-fist');
+    figBlock.src = fig0;
 
+    var horaBlock = document.getElementById('hora-fist');
+    horaBlock.src = hora0;
 
     const portfolioSection = document.querySelectorAll('.portfolio-section');
 
