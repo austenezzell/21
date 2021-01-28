@@ -35,6 +35,7 @@ import cinco2 from "../src/img/cinco_2.jpg";
 import cinco3 from "../src/img/cinco1.jpg";
 
 import gogoro0 from "../src/img/gogoro_0.jpg";
+
 import gogoro2 from "../src/img/gogoro_dtl_2.jpg";
 import gogoro3 from "../src/img/gogoro_dtl_3.png";
 import gogoro4 from "../src/img/gogoro_dtl_4.jpg";
@@ -146,6 +147,316 @@ let hora3 = 'https://player.vimeo.com/external/167498190.hd.mp4?s=091c3e983743f4
 let hora4 = 'https://player.vimeo.com/external/165376142.hd.mp4?s=81c1496a030ac87802a95df3da50f6cec7ff59fb&profile_id=174';
 let hora5 = 'https://player.vimeo.com/external/167500442.hd.mp4?s=f934a9db1f0b95530442e2931891572d18c2b347&profile_id=119';
 
+// GOGORO CONTENT
+let workdtlGogoro2 = {
+  image: gogoro2,
+  altText: "gogoro scooters",
+  info: "Cinco created Gogoro's original brand platform and visual identity. Since then we have helped position and create identities for new products including the S.",
+};
+let workdtlGogoro3 = {
+  image: gogoro10,
+  altText: "gogoro scooter",
+  info: '',
+};
+let workdtlGogoro4 = {
+  image: gogoro11,
+  altText: "G1 Scooter Parts",
+  info: '',
+};
+let workdtlGogoro5 = {
+  image: gogoro3,
+  altText: "Gogoro Flagship Store",
+  info: '',
+};
+let workdtlGogoro6 = {
+  image: gogoro13,
+  altText: "Gogoro Flagship Store",
+  info: '',
+};
+let workdtlGogoro7 = {
+  image: gogoro4,
+  altText: "Gogoro Flagship Store",
+  info: '',
+};
+let workdtlGogoro8 = {
+  image: gogoro5,
+  altText: "Gogoro Flagship Store",
+  info: '',
+};
+let workdtlGogoro9 = {
+  image: gogoro6,
+  altText: "Gogoro Flagship Store",
+  info: '',
+};
+let workdtlGogoro10 = {
+  image: gogoro7,
+  altText: "Gogoro Network",
+  info: 'In 2019 we worked with the Gogoro team on updating their brand architecture and introducing new sub brands. ',
+};
+let workdtlGogoro11 = {
+  image: gogoro8,
+  altText: "Gogoro Network",
+  info: '',
+};
+let workdtlGogoro12 = {
+  image: gogoro9,
+  altText: "Gogoro Network",
+  info: '',
+};
+let workdtlGogoro13 = {
+  image: gogoro15,
+  altText: "GoShare",
+  info: '',
+};
+let workdtlGogoro14 = {
+  image: gogoro14,
+  altText: "GoShare",
+  info: '',
+};
+
+
+// CINCO CONTENT
+let workdtlCinco1 = {
+  image: cinco1,
+  altText: "Cinco Design",
+  info: '',
+};
+let workdtlCinco2 = {
+  image: cinco0,
+  altText: "Cinco Design",
+  info: '',
+};
+let workdtlCinco3 = {
+  image: cinco2,
+  altText: "Cinco Design",
+  info: '',
+};
+let workdtlCinco4 = {
+  image: cinco,
+  altText: "Cinco Design",
+  info: '',
+};
+
+// HANK CONTENT
+let workdtlHank1 = {
+  image: hank1,
+  altText: "Hank PDX",
+  info: '',
+};
+let workdtlHank2 = {
+  image: hank4,
+  altText: "Hank PDX",
+  info: '',
+};
+let workdtlHank3 = {
+  image: hank3,
+  altText: "Hank PDX",
+  info: '',
+};
+let workdtlHank4 = {
+  image: hank5,
+  altText: "Hank PDX",
+  info: '',
+};
+let workdtlHank5 = {
+  image: hank1,
+  altText: "Hank PDX",
+  info: '',
+};
+
+
+// TJB CONTENT
+let workdtlTjb1 = {
+  image: tjb0,
+  altText: "The James Brand",
+  info: '',
+};
+let workdtlTjb2 = {
+  image: tjb3,
+  altText: "The James Brand",
+  info: '',
+};
+let workdtlTjb3 = {
+  image: tjb1,
+  altText: "The James Brand",
+  info: '',
+};
+let workdtlTjb4 = {
+  image: tjb4,
+  altText: "The James Brand",
+  info: '',
+};
+let workdtlTjb5 = {
+  image: tjb2,
+  altText: "The James Brand",
+  info: '',
+};
+
+// NEXTBIT CONTENT
+let workdtlNext1 = {
+  image: nextbit2,
+  altText: "Nextbit",
+  info: '',
+};
+let workdtlNext2 = {
+  image: nextbit3,
+  altText: "Nextbit",
+  info: '',
+};
+let workdtlNext3 = {
+  image: nextbit4,
+  altText: "Nextbit",
+  info: '',
+};
+let workdtlNext4 = {
+  image: nextbit5,
+  altText: "Nextbit",
+  info: '',
+};
+let workdtlNext5 = {
+  image: nextbit6,
+  altText: "Nextbit",
+  info: '',
+};
+let workdtlNext6 = {
+  image: nextbit7,
+  altText: "Nextbit",
+  info: '',
+};
+let workdtlNext7 = {
+  image: nextbit8,
+  altText: "Nextbit",
+  info: '',
+};
+let workdtlNext8 = {
+  image: nextbit9,
+  altText: "Nextbit",
+  info: '',
+};
+let workdtlNext9 = {
+  image: nextbit10,
+  altText: "Nextbit",
+  info: '',
+};
+let workdtlNext10 = {
+  image: nextbit11,
+  altText: "Nextbit",
+  info: '',
+};
+let workdtlNext11 = {
+  image: nextbit12,
+  altText: "Nextbit",
+  info: '',
+};
+let workdtlNext12 = {
+  image: nextbit13,
+  altText: "Nextbit",
+  info: '',
+};
+let workdtlNext13 = {
+  image: nextbit14,
+  altText: "Nextbit",
+  info: '',
+};
+
+// HORA CONTENT
+let workdtlHora1 = {
+  image: hora1,
+  altText: "Hora",
+  info: '',
+};
+let workdtlHora2 = {
+  image: hora3,
+  altText: "Hora",
+  info: '',
+};
+let workdtlHora3 = {
+  image: hora2,
+  altText: "Hora",
+  info: '',
+};
+let workdtlHora4 = {
+  image: hora4,
+  altText: "Hora",
+  info: '',
+};
+let workdtlHora5 = {
+  image: hora5,
+  altText: "Hora",
+  info: '',
+};
+
+// SACRED FIG CONTENT
+let workdtlFig1 = {
+  image: fig1,
+  altText: "The Sacred Fig",
+  info: '',
+};
+let workdtlFig2 = {
+  image: fig2,
+  altText: "The Sacred Fig",
+  info: '',
+};
+let workdtlFig3 = {
+  image: fig3,
+  altText: "The Sacred Fig",
+  info: '',
+};
+let workdtlFig4 = {
+  image: fig4,
+  altText: "The Sacred Fig",
+  info: '',
+};
+let workdtlFig5 = {
+  image: fig5,
+  altText: "The Sacred Fig",
+  info: '',
+};
+
+// RINGCENTRAL CONTENT
+let workdtlRing1 = {
+  image: rc0,
+  altText: "RingCentral",
+  info: 'Our first step towards designing for scale and improved performance is to create the tools we need for production — a design system, content library & templates. We also rebuilt internal processes from the ground up.',
+};
+let workdtlRing2 = {
+  image: rc1,
+  altText: "RingCentral",
+  info: 'RingCentral’s reliance on found imagery made it difficult to differentiate and create trust. We worked with Cinco Design to create a strategy and repeatable process for working with top photographers and illustrators to build a stockpile of premium content.',
+};
+let workdtlRing3 = {
+  image: rc2,
+  altText: "RingCentral",
+  info: '',
+};
+let workdtlRing4 = {
+  image: rc3,
+  altText: "RingCentral",
+  info: '',
+};
+let workdtlRing5 = {
+  image: rc5,
+  altText: "RingCentral",
+  info: 'Here is everywhere was RingCentral’s first ever global kick off with more than 7,000 employees in attendance. We helped align on a theme and created an identity and campaign to support it. ',
+};
+let workdtlRing6 = {
+  image: rc4,
+  altText: "RingCentral",
+  info: '',
+};
+let workdtlRing7 = {
+  image: rc7,
+  altText: "RingCentral",
+  info: "Identity and go to market for Glip—RingCentral's first freemium product.",
+};
+let workdtlRing8 = {
+  image: rcBalance1,
+  altText: "RingCentral",
+  info: "RingCentral's all in one solution helps people balance their hetic (and mixed) home and work lives. We created a campaign that put a spotlight on how we help people handle it all at once.",
+};
+
+
+
 document.addEventListener("DOMContentLoaded", () => {
 
   if (workPage) {
@@ -153,16 +464,20 @@ document.addEventListener("DOMContentLoaded", () => {
     let workImages = document.querySelectorAll('.work-images');
     let caseStudy = workPage.id;
 
-    let cincoWork = [cinco1, cinco0, cinco2, cinco];
-    let gogoroWork = [gogoro2,  gogoro10, gogoro11, gogoro12, gogoro3, gogoro13, gogoro4, gogoro5, gogoro6, gogoro7, gogoro8, gogoro9, gogoro15, gogoro14 ];
-    let indigoWork = [indigo1, indigo10, indigo2, indigo3, indigo4, indigo5, indigo6, indigo7, indigo8, indigo9];
-    let hanourWork = [hanour5, hanour6, hanour2, hanour3, hanour4, hanour1];
-    let tjbWork = [tjb0, tjb3, tjb1, tjb4, tjb2];
-    let hankWork = [hank1, hank4, hank3, hank5, hank2,];
-    let nextbitWork = [nextbit2, nextbit3, nextbit4, nextbit5, nextbit6, nextbit7, nextbit8, nextbit9, nextbit10, nextbit11, nextbit12, nextbit13, nextbit14 ];
-    let ringcentralWork = [rc0, rc1, rc2, rc3, rc4, rc5, rc7, rcBalance1];
-    let figWork = [fig1, fig2, fig3, fig4, fig5, fig6];
-    let horaWork = [hora1, hora3, hora2, hora4, hora5];
+    let cincoWork = [workdtlCinco1, workdtlCinco2, workdtlCinco3, workdtlCinco4];
+    let hankWork = [workdtlHank1, workdtlHank2, workdtlHank3, workdtlHank4, workdtlHank5];
+    let gogoroWork = [workdtlGogoro2, workdtlGogoro3, workdtlGogoro4, workdtlGogoro5, workdtlGogoro6, workdtlGogoro7, workdtlGogoro8, workdtlGogoro9, workdtlGogoro10, workdtlGogoro11, workdtlGogoro12, workdtlGogoro13, workdtlGogoro14]
+    let tjbWork = [workdtlTjb1, workdtlTjb2, workdtlTjb3, workdtlTjb4, workdtlTjb5];
+    let nextbitWork = [workdtlNext1, workdtlNext2, workdtlNext3, workdtlNext4, workdtlNext5, workdtlNext6, workdtlNext7, workdtlNext8, workdtlNext9, workdtlNext10, workdtlNext11, workdtlNext12, workdtlNext13];
+    let horaWork = [workdtlHora1, workdtlHora2, workdtlHora3, workdtlHora4, workdtlHora5];
+    let figWork = [workdtlFig1, workdtlFig2, workdtlFig3, workdtlFig4, workdtlFig5];
+    let ringcentralWork = [workdtlRing1, workdtlRing2, workdtlRing3, workdtlRing4, workdtlRing5, workdtlRing6, workdtlRing7, workdtlRing8];
+
+
+
+
+
+
 
     setTimeout(function() {
       introEl.style.display = 'none';
@@ -170,20 +485,40 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const injectWork = (client) => {
         for (var i = 0; i < client.length; i++) {
-          if (client[i].endsWith(".jpg") | client[i].endsWith(".png")) {
+          let workContent = document.createElement("div");
+          workContent.className = "work-content";
+          workImages[0].appendChild(workContent);
+
+          if (client[i].info.length !== 0) {
+            let workInfoContainer = document.createElement("div");
+            workInfoContainer.className = "work-info";
+            workContent.appendChild(workInfoContainer);
+            let workInfoContent = document.createElement("p");
+            workInfoContainer.appendChild(workInfoContent);
+            let textNode = document.createTextNode(client[i].info);
+            workInfoContent.appendChild(textNode);
+            let btn = document.createElement("BUTTON");
+            btn.innerHTML = "info";
+            btn.className = "info-btn"
+            workContent.appendChild(btn);
+          }
+
+          if (client[i].image.endsWith(".jpg") | client[i].image.endsWith(".png") | client[i].image.endsWith(".gif")) {
             let img = document.createElement("img");
-            img.src = client[i];
+            img.src = client[i].image;
             img.setAttribute('class','work-dtl');
-            workImages[0].appendChild(img);
+            img.setAttribute("alt", client[i].altText);
+            workContent.appendChild(img);
           } else {
             let video = document.createElement("video");
-            video.src = client[i];
+            video.src = client[i].image;
             video.setAttribute('playsinline', '');
+            video.setAttribute("alt", client[i].altText);
             video.muted = true;
             video.autoplay = true;
             video.loop = true;
             video.setAttribute('class','work-dtl');
-            workImages[0].appendChild(video);
+            workContent.appendChild(video);
           }
         }
     }
@@ -209,6 +544,27 @@ document.addEventListener("DOMContentLoaded", () => {
     } else if (caseStudy == 'hora-page') {
       injectWork(horaWork);
     }
+
+    let infoBtn = document.querySelectorAll('.info-btn');
+
+    for (var i = 0; i < infoBtn.length; i++) {
+      infoBtn[i].addEventListener('click',function(e) {
+
+        if (e.target.parentElement.classList.contains('dtl-open')) {
+          e.target.parentElement.classList.remove('dtl-open');
+          e.target.innerHTML = 'info';
+        } else {
+          e.target.parentElement.classList.add('dtl-open');
+          e.target.innerHTML = 'close';
+          // Scroll to the top of the image
+          let workHeader = document.querySelector('.work-header');
+          let workHeaderHeight = workHeader.offsetHeight;
+          let scrollUpTo = e.target.parentNode.offsetTop - workHeaderHeight + 1;
+          window.scrollTo(0, scrollUpTo);
+        }
+      });
+    };
+
 
   };
 
@@ -272,10 +628,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // IMAGES AND VIDEOS
-    // var cloudsBlock = document.getElementById('clouds');
-    // cloudsBlock.src = clouds;
-    var rcBlock = document.getElementById('rc0');
+    var rcBlock = document.getElementById('ringcentral-first');
     rcBlock.src = rcBalance2;
+
+    var figBlock = document.getElementById('thesacredfig-fist');
+    figBlock.src = fig0;
 
     var hankBlock = document.getElementById('hank');
     hankBlock.src = hank;
@@ -286,8 +643,6 @@ document.addEventListener("DOMContentLoaded", () => {
     var nextbitBlock = document.getElementById('nextbit-fist');
     nextbitBlock.src = nextbit1;
 
-    var figBlock = document.getElementById('fig-fist');
-    figBlock.src = fig0;
 
     var horaBlock = document.getElementById('hora-fist');
     horaBlock.src = hora0;

@@ -30,7 +30,10 @@ body {
 
 // LAYOUT
 .layout-margin {
-  padding: $layout-margin;
+  padding: $layout-margin / 2;
+  @media all and (min-width: 600px) {
+    padding: $layout-margin;
+  }
 }
 .grid-parent-centered {
   display: grid;
@@ -181,9 +184,10 @@ h1,h2,h3,h4,h5 {
   top: 0;
   z-index: 4;
   background: $tan-color;
-  @media all and (min-width: 600px) {
-    position: sticky;
-  }
+  position: sticky;
+  // @media all and (min-width: 600px) {
+  //   position: sticky;
+  // }
 }
 
 .sticky-mobile {
