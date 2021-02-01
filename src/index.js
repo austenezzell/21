@@ -130,6 +130,8 @@ import rc6 from "../src/img/rcfwd3.jpg";
 import rc7 from "../src/img/rcglip.jpg";
 import rcBalance1 from "../src/img/rc_balance_1.mp4";
 import rcBalance2 from "../src/img/rc_balance_2.mp4";
+import rc8 from "../src/img/rc_keyart_1.jpg";
+import rc9 from "../src/img/rc_keyart_2.jpg";
 
 import fig0 from "../src/img/fig_0.jpg";
 import fig1 from "../src/img/fig_1.jpg";
@@ -454,6 +456,16 @@ let workdtlRing8 = {
   altText: "RingCentral",
   info: "RingCentral's all in one solution helps people balance their hetic (and mixed) home and work lives. We created a campaign that put a spotlight on how we help people handle it all at once.",
 };
+let workdtlRing9 = {
+  image: rc8,
+  altText: "RingCentral",
+  info: "The visual asset creator is another tool we made to help us scale and diversify content on our blog and social media. It allows anyone on our marketing team (without support of the design team) to configure key art for their project.",
+};
+let workdtlRing10 = {
+  image: rc9,
+  altText: "RingCentral",
+  info: "",
+};
 
 
 
@@ -471,7 +483,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let nextbitWork = [workdtlNext1, workdtlNext2, workdtlNext3, workdtlNext4, workdtlNext5, workdtlNext6, workdtlNext7, workdtlNext8, workdtlNext9, workdtlNext10, workdtlNext11, workdtlNext12, workdtlNext13];
     let horaWork = [workdtlHora1, workdtlHora2, workdtlHora3, workdtlHora4, workdtlHora5];
     let figWork = [workdtlFig1, workdtlFig2, workdtlFig3, workdtlFig4, workdtlFig5];
-    let ringcentralWork = [workdtlRing1, workdtlRing2, workdtlRing3, workdtlRing4, workdtlRing5, workdtlRing6, workdtlRing7, workdtlRing8];
+    let ringcentralWork = [workdtlRing1, workdtlRing2, workdtlRing3, workdtlRing4, workdtlRing5, workdtlRing6, workdtlRing7, workdtlRing8, workdtlRing9, workdtlRing10];
 
 
 
