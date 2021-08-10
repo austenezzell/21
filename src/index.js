@@ -133,14 +133,14 @@ import rcBalance2 from "../src/img/rc_balance_2.mp4";
 import rc8 from "../src/img/rc_keyart_1.jpg";
 import rc9 from "../src/img/rc_keyart_2.jpg";
 
-import fig0 from "../src/img/fig_0.jpg";
-import fig1 from "../src/img/fig_1.jpg";
-import fig2 from "../src/img/fig_2.jpg";
-import fig3 from "../src/img/fig_3.jpg";
-import fig4 from "../src/img/fig_4.jpg";
-import fig5 from "../src/img/fig_5.jpg";
-import fig6 from "../src/img/fig_6.jpg";
-import fig7 from "../src/img/fig_7.jpg";
+// import fig0 from "../src/img/fig_0.jpg";
+// import fig1 from "../src/img/fig_1.jpg";
+// import fig2 from "../src/img/fig_2.jpg";
+// import fig3 from "../src/img/fig_3.jpg";
+// import fig4 from "../src/img/fig_4.jpg";
+// import fig5 from "../src/img/fig_5.jpg";
+// import fig6 from "../src/img/fig_6.jpg";
+// import fig7 from "../src/img/fig_7.jpg";
 
 import hora0 from "../src/img/hora_0.jpg";
 import hora1 from "../src/img/hora_1.jpg";
@@ -389,31 +389,31 @@ let workdtlHora5 = {
 };
 
 // SACRED FIG CONTENT
-let workdtlFig1 = {
-  image: fig1,
-  altText: "The Sacred Fig",
-  info: '',
-};
-let workdtlFig2 = {
-  image: fig2,
-  altText: "The Sacred Fig",
-  info: '',
-};
-let workdtlFig3 = {
-  image: fig3,
-  altText: "The Sacred Fig",
-  info: '',
-};
-let workdtlFig4 = {
-  image: fig4,
-  altText: "The Sacred Fig",
-  info: '',
-};
-let workdtlFig5 = {
-  image: fig5,
-  altText: "The Sacred Fig",
-  info: '',
-};
+// let workdtlFig1 = {
+//   image: fig1,
+//   altText: "The Sacred Fig",
+//   info: '',
+// };
+// let workdtlFig2 = {
+//   image: fig2,
+//   altText: "The Sacred Fig",
+//   info: '',
+// };
+// let workdtlFig3 = {
+//   image: fig3,
+//   altText: "The Sacred Fig",
+//   info: '',
+// };
+// let workdtlFig4 = {
+//   image: fig4,
+//   altText: "The Sacred Fig",
+//   info: '',
+// };
+// let workdtlFig5 = {
+//   image: fig5,
+//   altText: "The Sacred Fig",
+//   info: '',
+// };
 
 // RINGCENTRAL CONTENT
 let workdtlRing1 = {
@@ -456,16 +456,16 @@ let workdtlRing8 = {
   altText: "RingCentral",
   info: "RingCentral's all in one solution helps people balance their hetic (and mixed) home and work lives. We created a campaign that put a spotlight on how we help people handle it all at once.",
 };
-let workdtlRing9 = {
-  image: rc8,
-  altText: "RingCentral",
-  info: "The visual asset creator is another tool we made to help us scale and diversify content on our blog and social media. It allows anyone on our marketing team (without support of the design team) to configure key art for their project.",
-};
-let workdtlRing10 = {
-  image: rc9,
-  altText: "RingCentral",
-  info: "",
-};
+// let workdtlRing9 = {
+//   image: rc8,
+//   altText: "RingCentral",
+//   info: "The visual asset creator is another tool we made to help us scale and diversify content on our blog and social media. It allows anyone on our marketing team (without support of the design team) to configure key art for their project.",
+// };
+// let workdtlRing10 = {
+//   image: rc9,
+//   altText: "RingCentral",
+//   info: "",
+// };
 
 
 
@@ -482,8 +482,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let tjbWork = [workdtlTjb1, workdtlTjb2, workdtlTjb3, workdtlTjb4, workdtlTjb5];
     let nextbitWork = [workdtlNext1, workdtlNext2, workdtlNext3, workdtlNext4, workdtlNext5, workdtlNext6, workdtlNext7, workdtlNext8, workdtlNext9, workdtlNext10, workdtlNext11, workdtlNext12, workdtlNext13];
     let horaWork = [workdtlHora1, workdtlHora2, workdtlHora3, workdtlHora4, workdtlHora5];
-    let figWork = [workdtlFig1, workdtlFig2, workdtlFig3, workdtlFig4, workdtlFig5];
-    let ringcentralWork = [workdtlRing1, workdtlRing2, workdtlRing3, workdtlRing4, workdtlRing5, workdtlRing6, workdtlRing7, workdtlRing8, workdtlRing9, workdtlRing10];
+    // let figWork = [workdtlFig1, workdtlFig2, workdtlFig3, workdtlFig4, workdtlFig5];
+    let ringcentralWork = [workdtlRing1, workdtlRing2, workdtlRing3, workdtlRing4, workdtlRing5, workdtlRing6, workdtlRing7, workdtlRing8];
 
 
 
@@ -643,8 +643,8 @@ document.addEventListener("DOMContentLoaded", () => {
     var rcBlock = document.getElementById('ringcentral-first');
     rcBlock.src = rcBalance2;
 
-    var figBlock = document.getElementById('thesacredfig-fist');
-    figBlock.src = fig0;
+    // var figBlock = document.getElementById('thesacredfig-fist');
+    // figBlock.src = fig0;
 
     var hankBlock = document.getElementById('hank');
     hankBlock.src = hank;
